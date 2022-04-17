@@ -10,8 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".AboutActivity"
+            android:exported="false" android:parentActivityName=".AboutActivity"/>
+        <activity
+            android:name=".AccountActivity"
+            android:exported="false" android:parentActivityName=".AccountActivity"/>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:parentActivityName=".LoginActivity" />
+        <activity
             android:name=".CartActivity4"
-            android:exported="false" android:parentActivityName=".CartActivity"/>
+            android:exported="false"
+            android:parentActivityName=".CartActivity" />
         <activity
             android:name=".CartActivity3"
             android:exported="false"

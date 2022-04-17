@@ -16,6 +16,30 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val btnlogin: Button = findViewById<Button>(R.id.btnlogin)
+
+        btnlogin.setOnClickListener {
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+        }
+
+        val accbtn: Button = findViewById<Button>(R.id.accbtn)
+
+        accbtn.setOnClickListener {
+            val intent = Intent(this, AccountActivity::class.java)
+            startActivity(intent)
+        }
+
+        val aboutbtn: Button = findViewById<Button>(R.id.aboutbtn)
+
+        aboutbtn.setOnClickListener {
+            val intent = Intent(this, AboutActivity::class.java)
+            startActivity(intent)
+        }
+
+
+
+
 
     }
 }
